@@ -1,15 +1,452 @@
 /* partie Consty css */
 
+
+.header{
+    background-color: #F2EFEF;
+    height: 95vh;
+    justify-content: space-between;
+}
+
+.nav-link{
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 40px;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link{
+    font-size: 16px;
+    /*margin-left: px;*/
+    font-weight: bold;
+}
+.home{
+    color: #41b883;
+}
+
+a img{
+    height: 35px;
+    margin-left: 100px;
+    margin-right: 300px;
+}
+
+.header_button{
+    width: 150px;
+    height: 50px;
+    background-color: #41b883;
+    color: #fff;
+    margin-right: 200px;
+    border-radius: 8px 8px 8px 8px;
+}
+.conteneur2_div_header{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.header_div_gauche{
+    width: 450px;
+    height: 595px;
+background-color: re;
+margin-left: 200px;
+margin-top: 40px;
+padding-left: 15px;
+
+}
+
+.header_div_droite{
+    width: 860px;
+    height: 595px; 
+    margin-top: 40px;
+padding-left: 15px;
+background-color: yel;
+
+}
+
+.header_div_gauche_h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #41b883;
+}
+
+.header_div_gauche_h6{
+    
+    font-weight: bold;
+    color: #41b883;
+}
+
+.header_button_div_gauche{
+    width: 200px;
+    height: 60px;
+    background-color: #41b883;
+    color: #fff;
+    margin-left: 100px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.imag{
+   display: inline-block;
+}
+
+.header_img1{
+    margin-left: 240px;
+    margin-top: 90px;
+}
+
+.header_img2{
+    margin-left: 150px;
+    margin-top: 180px;
+}
+
+.header_img3{
+    margin-left: 230px;
+    margin-top: -570px;
+}
+
+.header_img4{
+    margin-left: 650px;
+    margin-top: -800px;
+}
+/*fin.....................*/
+
+                                  /* debut de la partie 2 section1*/
+
+.div_conteneur_section1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.section1_img1{
+    margin-left: 150px;
+    
+}
+
+.section1_text{
+    justify-content: space-between;
+
+}
+.text_h2{
+   
+    text-align: center;
+}
+
+.text_h6{
+    margin-top: 100px;
+    text-align: center;
+    color: #41b883;
+}
+
+.text_p{
+    text-align: center;
+}
+
+.conteneur_page2_col{
+display: flex;
+flex-wrap: wrap;
+margin-top: 100px;
+margin-left: 200px;
+
+}
+
+
+.conteneur_page2_col1{
+width: 350px;
+height: 600px;
+background-color: #ffff;
+/*margin-left: 150px;*/
+margin-right: 10px;
+border-radius: 25px 25px 25px 25px;
+border: 0px solid none;
+}
+
+.conteneur_page2_col1:hover{
+    width: 350px;
+    height: 600px;
+    background-color: #fff;
+    /*margin-left: 150px;*/
+    margin-right: 10px;
+    border-radius: 25px 25px 25px 25px;
+    border: 5px solid #F5F7FA;
+    
+}
+
+.conteneur_page2_col img{
+    margin-left: 100px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.conteneur_page2_col_p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.conteneur_page2_col_h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.page2_button{
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    color: #000000;
+    margin-left: 100px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin: center;
+}
+
+.page2_button:hover{            /*button de la page2*/
+    width: 150px;
+    height: 60px;
+    background-color: #585858;
+    color: #000000;
+    margin-left: 100px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin: center;
+}
+
+/*finnnn........*/
+
+/*debuuuut de la partie3 ou page3*/
+
+.div_conteneur_page3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 92vh;
+    background-color: #41b883;
+    margin-top: 100px;
+}
+
+.div_gauche_page3{
+    width: 700px;
+    height: 500px;
+    padding-left: 200px;
+    padding-top: 100px;
+    
+}
+
+.div_droite_page3{
+    width: 818px;
+    height: 500px;
+    padding-top: 100px;
+    background-color: #41b883;
+}
+
+.page3_h6{
+color: #fff;
+font-size: 20px;
+}
+
+.page3_h1{
+    color: #fff; 
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.page3_p{
+    color: #fff; 
+     
+}
+
+.page3_button{
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    color: #41b883;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+    float: left;
+}
+
+.page3_button:hover{
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    color: #41b883;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+    
+}
+
+.div_gauche_page3_imag{
+    height: 200px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    padding-bottom: ;
+    
+}
+
+.div_bas_page3{
+    width: 100px;
+    height: 100px;
+    margin-top: -170px;
+    margin-left: 10px;
+}
+
+.div_droite_page3_imag{
+    
+    
+    margin-left: 300px;
+    padding-top: 100px;
+    
+}    
 /* fin partie consty css  */
 
 
 /* partie Abdoul Matini css */
+section.first
+{
+    margin-top: 50px;
+}
+section.first .first_right 
+{
+    /* border: 1px solid black; */
+}
+section.first .first_right .t_choo
+{
+    display: inline-flex;
+}
+section.first .first_right .tiret 
+{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 2px;
+    margin: 35px 10px;
+}
+section.first .first_right .choose
+{
+    color: green;
+}
+section.first .first_right .choose h2
+{
+    font-size: 2em;
+}
+section.first .first_right h2
+{
+    font-size: 3em;
+    font-weight: bold;
+}
 
+/* ----------reason-------  */
+section.select_2
+{
+    position: relative;
+}
+.section-right
+{
+    margin: 0 20px;
+}
+section.reason
+{
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    box-shadow: 0 0 5px gray;
+    transition: all 0.4s ease-in-out;
+    border-radius: 20px;
+    padding:15px;
+    display: flex;
+    /* text-align: center; */
+}
+section.reason:hover
+{
+    box-shadow: 0 0 14px gray;
+}
+section.reason .reason_img
+{
+    margin-right: 20px;
+}
+section.reason .reason_img img
+{
+    margin: 20px 0;
+}
+section.reason .reason_text .r_text h4
+{
+    font-weight: bold;
+    font-size: 1.5em;  
+}
+section.reason .reason_text .r_text p
+{
+    color: rgb(141, 140, 140);
+}
+@media (max-width: 997px) 
+{
+    section.reason
+    {
+        /* border: 1px solid black; */
+        display: block;
+        text-align: center;
+    }  
+}
+@media (max-width: 575px) 
+{
+    section.reason
+    {
+        width: 100%;
+    }  
+}
+
+.selected
+{
+    background-color: rgb(224, 224, 224);
+    /* height: 600px; */
+    padding-top: 100px;
+}
+.selected .select_1
+{
+    display: inline-flex;
+}
+.selected .select_1 .tiret 
+{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 2px;
+    margin: 35px 10px;
+}
+.selected .select_1 .choose
+{
+    color: green;
+}
+.selected .select_1 .choose h2
+{
+    font-size: 2em;
+}
+/* .select_info
+{
+    position: absolute;
+    top: 350px;
+} */
+
+.select_info
+{
+    border: 1px solid black;
+}
+.select_info .select_info_body
+{
+    width: 50%;
+}
 /* fin partie Abdoul matini css */
 
 
 
 /* partie Koffi css */
+
+
+
+
 section div.projects {
     display: flex;
     justify-content: center;
@@ -60,10 +497,15 @@ background-size: cover;
 
 }
 .footer_text {
+    
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 i {color: #41b883;}
 #footer_position{
     
+
 /* fin partie Koffi css */
